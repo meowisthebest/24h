@@ -570,7 +570,7 @@ header .nav__header .nav__header-right .nav__header-bar i:hover {
   left: 40px;
   bottom: 25%;
   z-index: 1;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 40px;
@@ -582,7 +582,7 @@ header .nav__header .nav__header-right .nav__header-bar i:hover {
   left: 40px;
   bottom: 15%;
   z-index: 1;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 21px;
@@ -673,4 +673,49 @@ header .nav__header .nav__header-right .nav__header-bar i:hover {
   font-size: 14px;
   line-height: 21px;
   color: #d3d7da;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+
+  header .top__header {
+    display: none;
+  }
+  .nav__header-list {
+    display: none;
+  }
+  .blog-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog-1 .blog__left {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .blog-1 .blog__right {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+  .blog-2 .blog2__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog-2 .blog2__content .blog2__left {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .blog-2 .blog2__content .blog2__left img {
+    padding: 0;
+  }
+
+  .blog-2 .blog2__content .blog2__right {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
